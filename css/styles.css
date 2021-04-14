@@ -1,0 +1,104 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    --pink: rgb(253 216 216);
+}
+
+body {
+    font-family: 'Underdog', cursive;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--pink);
+}
+
+header h1 {
+    font-size: 2.8rem;
+    margin: 1rem;
+}
+
+header h4 {
+    font-size: 1.2rem;
+    margin: 0 1rem 1.5rem 1rem;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+main img {
+    height: 15rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    width: 10rem;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+#input-txt {
+    resize: none;
+}
+
+#translate {
+    padding: 1rem;
+    margin: 1rem;
+    font-size: 1.3rem;
+    font-family: 'Underdog', cursive;
+    border-radius: 5px;
+    outline: none;
+    border: 2px solid black;
+    box-shadow: 0 10px 8px grey;
+}
+
+#translate:hover {
+    cursor: pointer;
+}
+
+#translate:active {
+    position: relative;
+    top: 10px;
+    box-shadow: none;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--pink);
+    position: fixed;
+    bottom: 0;
+    padding: 1rem;
+    width: 100%;
+    text-align: center;
+    height: 4vh;
+}
+
+footer span {
+    font-weight: bold;
+}
+
+/* Utility Classes */
+.box {
+    border: 2px solid black;
+    overflow: scroll;
+    height: 8rem;
+    width: 16.5rem;
+    padding: 1rem;
+    font-size: 1.1rem;
+    font-family: 'Underdog', cursive;
+}
