@@ -48,6 +48,7 @@ main img {
     align-items: center;
     justify-content: center;
     margin: auto;
+    /* flex-wrap: wrap; */
 }
 
 #input-txt {
@@ -101,4 +102,11 @@ footer span {
     padding: 1rem;
     font-size: 1.1rem;
     font-family: 'Underdog', cursive;
+}
+
+@media only screen and (max-width:797px) {
+    .container{
+        flex-direction: column;
+        margin-bottom: 100px;
+    }   
 }
